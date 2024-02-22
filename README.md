@@ -7,8 +7,9 @@ Molecular dynamics (MD) simulations are a powerful computational tool used in va
 
 While many researchers have access to High-Performance Computing (HPC) facilities for conducting simulations, some freelance scientists or researchers in middle-income countries may not have access to such resources due to cost or infrastructure limitations. This repository demonstrates how to use clood resources like AWS cloud computing and Google Colaboratory Notebook to accelerate molecular dynamics simulations, enabling researchers to tackle larger and more complex systems while optimizing costs and scalability. 
 
-For AWS: [Instrutions for AWS ](instructions_for_aws.md)
-For Google Colab: [Instrutions for Colab](instructions_for_colab.md)
+For AWS: [Instructions for AWS ](instructions_for_aws.md)
+
+For Google Colab: [Instructions for Colab](instructions_for_colab.md)
 
 ## References
 1. Amazon Web Services. "Amazon EC2" Accessed February 22, 2024. https://aws.amazon.com/ec2/.

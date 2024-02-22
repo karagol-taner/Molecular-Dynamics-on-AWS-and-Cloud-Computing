@@ -1,11 +1,11 @@
-1. Chose Ubuntu for EC2 instance platform. (Don not forget to secure private key file)
+1. Choose Ubuntu for the EC2 instance platform. (Do not forget to secure the private key file)
 
 2. To upgrade the packages on your system, you can use the apt package manager:
 ```
 sudo apt update     # This updates the package lists
 sudo apt upgrade    # This upgrades the installed packages to their latest versions
 ```
-3. Install gromacs
+3. Install Gromacs
 ```
 sudo apt install gromacs
 ```

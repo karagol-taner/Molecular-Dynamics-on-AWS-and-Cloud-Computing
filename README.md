@@ -8,7 +8,7 @@ Molecular dynamics (MD) simulations are a powerful computational tool used in va
 While many researchers have access to High-Performance Computing (HPC) facilities for conducting simulations, some freelance scientists or researchers in middle-income countries may not have access to such resources due to cost or infrastructure limitations. This repository demonstrates how to leverage AWS cloud computing resources to accelerate molecular dynamics simulations, enabling researchers to tackle larger and more complex systems while optimizing costs and scalability. 
 
 ## Objective
-The main objective of this project is to provide a framework for setting up and running molecular dynamics simulations on AWS. 
+
 
 ## References
 1. Amazon Web Services. "Amazon EC2" Accessed February 22, 2024. https://aws.amazon.com/ec2/.

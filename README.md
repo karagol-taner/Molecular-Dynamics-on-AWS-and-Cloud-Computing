@@ -1,6 +1,6 @@
 # Molecular Dynamics on Cloud
 
-Molecular Dynamics on AWS (Amazon Web Services) and other cloud services
+Molecular Dynamics on AWS (Amazon Web Services) and other Cloud services
 
 ## Introduction
 Molecular dynamics (MD) simulations are a powerful computational tool used in various fields of science, including chemistry, biology, and materials science. GROMACS is a widely used open-source molecular dynamics simulation software designed for biochemical molecules.

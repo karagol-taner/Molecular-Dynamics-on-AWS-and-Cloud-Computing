@@ -5,9 +5,15 @@
 sudo apt update  
 sudo apt upgrade 
 ```
-3. Install Gromacs
+3. Install Gromacs and other installations
 ```
 sudo apt install gromacs
+```
+```
+sudo apt-get install openmpi-bin libopenmpi-dev
+```
+```
+sudo apt-get install dos2unix
 ```
 
 4. You can install files with wget:

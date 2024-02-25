@@ -2,8 +2,8 @@
 
 2. To upgrade the packages on your system, you can use the apt package manager:
 ```
-sudo apt update     # This updates the package lists
-sudo apt upgrade    # This upgrades the installed packages to their latest versions
+sudo apt update  
+sudo apt upgrade 
 ```
 3. Install Gromacs
 ```

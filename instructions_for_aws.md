@@ -40,6 +40,11 @@ cat output.log
 ```
 sudo apt-get install dos2unix  #for running the .sh bash file
 ```
+```
+dos2unix start.sh #if the script file is start.sh
+chmod +x start.sh
+./start.sh
+```
 10. You can use SCP to securely transfer files between your EC2 instance and your local Windows computer.
 You will need an SCP client for Windows, such as WinSCP or PuTTY's pscp.
 

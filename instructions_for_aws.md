@@ -24,7 +24,7 @@ gmx mdrun -s benchMEM.tpr -nsteps 5000 -deffnm benchMEM && tar cvzf benchMEM.tar
 
 7. For making the code keep runing when you close terminal (keep running the instance), you can add nohup to code. For example:
 ```
-nohup gmx mdrun -deffnm example -cpi md.cpt -cpt 3 -v > output.log &
+nohup gmx mdrun -deffnm example -v > output.log &
 ```
 8. You can reach output file with tail (see the progress on time) or cat command.
 ```
@@ -47,5 +47,7 @@ You will need an SCP client for Windows, such as WinSCP or PuTTY's pscp.
 - Click "OK" to close the Advanced Site Settings dialog.
 
 11. Some additional GROMACS instructions for EC2:
-- IF you are yousing non-GPU system like t3 micro, you can add -nt 1 to gmx code, also you can modify checkpoints with -cpi md.cpt -cpt 3 option.
-
+- IF you are yousing non-GPU system like t3 micro, you can add -nt 1 to gmx code, also you can modify checkpoints with -cpi md.cpt -cpt 3 option. Example:
+```
+nohup gmx mdrun -nt 1 -deffnm step6.0_minimization -cpi md.cpt -cpt 3 -v > script_output.log &
+```

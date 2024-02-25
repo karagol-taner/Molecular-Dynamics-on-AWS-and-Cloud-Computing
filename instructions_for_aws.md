@@ -22,7 +22,7 @@ wget <URL>
 gmx mdrun -s benchMEM.tpr -nsteps 5000 -deffnm benchMEM && tar cvzf benchMEM.tar benchMEM*
 ```
 
-7. For making the code keep runing when you close terminal (keep running the instance), you can add nohup to code. For example:
+7. For making the code keep running when you close terminal (while running the instance), you can add nohup to code. For example:
 ```
 nohup gmx mdrun -deffnm example -v > output.log &
 ```

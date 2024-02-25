@@ -18,7 +18,7 @@ sudo apt-get install openmpi-bin libopenmpi-dev
 wget <URL>
 ```
 
-5. For benchmark files, you check this website: (https://www.mpinat.mpg.de/grubmueller/bench)
+5. For benchmark files, please check this website: (https://www.mpinat.mpg.de/grubmueller/bench)
 
 6. Benchmark code:
 ```
@@ -29,7 +29,7 @@ gmx mdrun -s benchMEM.tpr -nsteps 5000 -deffnm benchMEM && tar cvzf benchMEM.tar
 ```
 nohup gmx mdrun -deffnm example -v > output.log &
 ```
-8. You can reach output file with tail (see the progress on time) or cat command.
+8. You can reach the output file with tail (see the progress on time) or cat command.
 ```
 tail -f output.log
 ```

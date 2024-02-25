@@ -58,7 +58,7 @@ You will need an SCP client for Windows, such as WinSCP or PuTTY's pscp.
 - Click "OK" to close the Advanced Site Settings dialog.
 
 12. Some additional GROMACS instructions for EC2:
-- IF you are yousing non-GPU system like t3 micro, you can add -nt 1 to gmx code, also you can modify checkpoints with -cpi md.cpt -cpt 3 option. Example:
+- IF you are yousing non-GPU system like t3 micro, you can add -nt 1 to gmx code, also you can modify checkpoints with -cpt option. Example:
 ```
 nohup gmx mdrun -nt 1 -deffnm step6.0_minimization -cpi md.cpt -cpt 3 -v > script_output.log &
 ```

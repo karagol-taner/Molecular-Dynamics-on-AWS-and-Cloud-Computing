@@ -24,7 +24,7 @@ gmx mdrun -s benchMEM.tpr -nsteps 5000 -deffnm benchMEM && tar cvzf benchMEM.tar
 
 7. For making the code keep runing when you close terminal (keep running the instance), you can add nohup to code. For example:
 ```
-nohup gmx mdrun -nt 1 -deffnm example -cpi md.cpt -cpt 3 -v > output.log &
+nohup gmx mdrun -deffnm example -cpi md.cpt -cpt 3 -v > output.log &
 ```
 8. You can reach output file with tail (see the progress on time) or cat command.
 ```

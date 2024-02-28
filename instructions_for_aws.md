@@ -8,7 +8,7 @@ Before you begin, make sure you have the following:
 
 - An Amazon Web Services (AWS) account
 - Access to Amazon EC2
-- Basic knowledge of BASH commands and molecular dynamics simulations
+- Knowledge of BASH commands and molecular dynamics simulations
 
 ## Setup
 1. **Launch an EC2 Instance:**

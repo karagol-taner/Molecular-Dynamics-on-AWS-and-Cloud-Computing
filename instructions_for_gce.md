@@ -53,7 +53,7 @@ You will need an SCP client for Windows, such as WinSCP or PuTTY's pscp.
 
 11. If you use WinSCP client, you will need to have private key file.ppk. You can generate this file with PuTTYgen. After generating SSH key, copy the open-ssh format on the screen and paste this key to Google instance options SSH key section. If you want to access the first user filws via WinSCP, you can edit the username at the end of the key. You should make the username same as the original username.
 
-12. configure WinSCP to use the private key:
+12. Configure WinSCP to use the private key:
 
 - Open WinSCP.
 - In the login dialog, enter the hostname (Instance's public IP address), your username, and leave the password field empty.

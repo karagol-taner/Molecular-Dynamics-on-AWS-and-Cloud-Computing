@@ -2,6 +2,8 @@
 
 This guide provides instructions for setting up and running molecular dynamics simulations on Google Colab.
 
+Note: Google Colab sessions have a maximum runtime of 12 hours. If your simulation requires more time, you may need to break it into shorter segments or consider alternative computing resources.
+
 ## Prerequisites
 
 Before you begin, make sure you have the following:

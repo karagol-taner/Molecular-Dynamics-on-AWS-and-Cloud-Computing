@@ -1,10 +1,27 @@
-1. Open a new Google Colaboratory Notebook.
+# Molecular Dynamics Simulation on Google Colab
+
+This guide provides instructions for setting up and running molecular dynamics simulations on Google Colab.
+
+## Prerequisites
+
+Before you begin, make sure you have the following:
+
+- A Google account
+- Knowledge of molecular dynamics simulations and BASH commands
+- Familiarity with using Google Colab notebooks
+
+## Setup
+
+1. **Open a Google Colab Notebook:**
+   - Go to [Google Colab](https://colab.research.google.com/).
+   - Sign in with your Google account if you're not already signed in.
+   - Create a new notebook or open an existing one.
  
 2. Add code for installing GROMACS:
 ```
 !apt-get install -y gromacs
 ```
-3. You can upload files from the side-bar, files section. You can mount your google drive with this command:
+3. You can upload files from the side-bar, files section. You can mount your google drive with this command: (NOTE: Google Drive mounting does not work if you use custom Google Compute Engine VM)
 ```
 from google.colab import drive
 drive.mount('/content/drive')

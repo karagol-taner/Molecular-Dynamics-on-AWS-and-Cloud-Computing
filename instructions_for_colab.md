@@ -18,6 +18,7 @@ Before you begin, make sure you have the following:
    - Go to [Google Colab](https://colab.research.google.com/).
    - Sign in with your Google account if you're not already signed in.
    - Create a new notebook or open an existing one.
+   - You can integrate custom Google Compute Engine virtual machines (VMs) for faster computing.
  
 2. Add code for installing GROMACS:
 ```

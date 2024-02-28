@@ -1,4 +1,20 @@
-1. Choose Ubuntu for the EC2 instance platform. (Do not forget to secure the private key file)
+# Molecular Dynamics Simulation on Amazon AWS EC2
+
+This guide provides instructions for setting up and running molecular dynamics simulations on Amazon Elastic Compute Cloud (EC2).
+
+## Prerequisites
+
+Before you begin, make sure you have the following:
+
+- An Amazon Web Services (AWS) account
+- Access to Amazon EC2
+- Basic knowledge of BASH commands and molecular dynamics simulations
+
+## Setup
+1. **Launch an EC2 Instance:**
+   - Sign in to the AWS Management Console.
+   - Navigate to the EC2 dashboard.
+   - Choose Ubuntu for the EC2 instance platform. **(Do not forget to secure the private key file)**
 
 2. To upgrade the packages on your system, you can use the apt package manager:
 ```
@@ -61,7 +77,7 @@ You will need an SCP client for Windows, such as WinSCP or PuTTY's pscp.
 - Click "OK" to close the Advanced Site Settings dialog.
 
 12. Some additional GROMACS instructions for EC2:
-- IF you are using non-GPU system like t3.micro, you can add -nt 1 to gmx code for CPU only.
+- IF you are using non-GPU system like t3.micro, you can add -nt 1 to gmx code for 1 CPU thread only.
 - Also, you can modify checkpoints with -cpt option. Example:
 ```
 nohup gmx mdrun -nt 1 -deffnm step6.0_minimization -cpi md.cpt -cpt 3 -v > script_output.log &

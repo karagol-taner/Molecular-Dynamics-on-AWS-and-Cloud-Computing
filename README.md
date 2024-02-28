@@ -18,3 +18,5 @@ For Google Colab: [Instructions for Colab](instructions_for_colab.md)
 2. Kutzner, C., Kniep, C., Cherian, A., Nordstrom, L., Grubmüller, H., de Groot, B. L., & Gapsys, V. (2022). GROMACS in the Cloud: A Global Supercomputer to Speed Up Alchemical Drug Design. Journal of chemical information and modeling, 62(7), 1691–1711. https://doi.org/10.1021/acs.jcim.2c00044
 3. For Benchmarks: Dept. of Theoretical and Computational Biophysics, Max Planck Institute for Multidisciplinary Sciences, Göttingen, https://www.mpinat.mpg.de/grubmueller/bench
 4. Google. "Google Colaboratory" Accessed February 22, 2024. https://colab.research.google.com/.
+5. [GROMACS Documentation](http://manual.gromacs.org/)
+6. [Google Compute Engine Documentation](https://cloud.google.com/compute)

@@ -2,7 +2,7 @@
 
 Molecular Dynamics on Google Compute Engine, AWS (Amazon Web Services), and other Cloud Computing services
 
-DOI:
+DOI/Cite:
 
 [![DOI](https://zenodo.org/badge/761850636.svg)](https://zenodo.org/doi/10.5281/zenodo.10751372)
 

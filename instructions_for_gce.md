@@ -17,7 +17,8 @@ Before you begin, make sure you have the following:
    - Navigate to the Google Cloud Console.
    - Click on the "Compute Engine" menu option.
    - Click the "Create Instance" button.
-   - Choose Ubuntu for the instance platform (Boot Disk section). 
+   - Choose Ubuntu for the instance platform (Boot Disk section).
+   - You can apply for Quota update for more CPU cores.
 
 2. Run the SSH. To upgrade the packages on your system, you can use the apt package manager:
 ```
@@ -30,6 +31,9 @@ sudo apt install gromacs
 ```
 ```
 sudo apt-get install openmpi-bin libopenmpi-dev
+```
+```
+sudo apt install dos2unix
 ```
 
 4. You can install files with wget or SSH interface Upload button:

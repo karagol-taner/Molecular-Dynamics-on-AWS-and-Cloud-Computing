@@ -28,6 +28,9 @@ sudo apt install gromacs
 ```
 sudo apt-get install openmpi-bin libopenmpi-dev
 ```
+```
+sudo apt install dos2unix
+```
 
 4. You can install files with wget:
 ```

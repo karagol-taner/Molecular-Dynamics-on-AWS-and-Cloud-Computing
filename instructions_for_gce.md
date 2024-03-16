@@ -89,3 +89,10 @@ You will need an SCP client for Windows, such as WinSCP or PuTTY's pscp.
 nohup gmx mdrun -deffnm step6.0_minimization -cpi md.cpt -cpt 3 -v > script_output.log &
 ```
 
+12. If your local internet speed is low, you can upload files to Google Drive using VM's internet connection using gdrive for linux .
+```
+wget https://github.com/BugCode1/gdrive/releases/download/2.1.2/gdrive_2.1.2_linux_386.tar.gz
+tar -xvf gdrive_2.1.2_linux_386.tar.gz
+./gdrive about
+./gdrive upload --parent GoogleDriveFolderID --recursive ./FolderName
+```

@@ -96,3 +96,14 @@ tar -xvf gdrive_2.1.2_linux_386.tar.gz
 ./gdrive about
 ./gdrive upload --parent GoogleDriveFolderID --recursive ./FolderName
 ```
+If gdrive doesnt work, you can use another tool called gdown to downbload large folders:
+```
+pip install gdown
+pip install --upgrade gdown
+
+export PATH="$HOME/.local/bin:$PATH"
+source ~/.bashrc
+
+gdown folder_url -O /tmp/folder --folder
+```
+

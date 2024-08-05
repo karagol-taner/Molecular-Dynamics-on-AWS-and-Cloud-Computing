@@ -104,6 +104,6 @@ pip install --upgrade gdown
 export PATH="$HOME/.local/bin:$PATH"
 source ~/.bashrc
 
-gdown folder_url -O /tmp/folder --folder
+gdown folder_url -O /home/folder --folder
 ```
 

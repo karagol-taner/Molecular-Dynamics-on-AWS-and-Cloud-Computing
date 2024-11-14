@@ -2,6 +2,8 @@
 
 Molecular Dynamics on Google Compute Engine, AWS (Amazon Web Services), and other Cloud Computing services
 
+A major benchmarking update and accompanying paper are coming soon. 
+
 DOI/Cite:
 
 [![DOI](https://zenodo.org/badge/761850636.svg)](https://zenodo.org/doi/10.5281/zenodo.10751372)
@@ -19,6 +21,8 @@ Popular platforms such as Google Compute Engine and AWS now provide scalable com
 **For AWS: [Instructions for AWS ](instructions_for_aws.md)**
 
 **For Google Colab: [Instructions for Colab](instructions_for_colab.md)**
+
+This information is provided without any advice, recommendations, or guarantees.
 
 ## References
 1. Amazon Web Services. "Amazon EC2" Accessed February 22, 2024. https://aws.amazon.com/ec2/.

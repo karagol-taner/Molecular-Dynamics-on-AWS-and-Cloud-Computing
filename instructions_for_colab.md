@@ -1,16 +1,24 @@
 # Molecular Dynamics Simulation on Google Colab
 
-This guide provides instructions for setting up and running molecular dynamics simulations on Google Colab.
+This guide provides detailed instructions for setting up and running molecular dynamics (MD) simulations on Google Colab, with optimized workflows for significant performance gains. Using the tools and techniques outlined here, researchers can overcome Colab’s session limitations and maximize the platform's potential for MD simulations.
 
-Note: Google Colab sessions have a maximum runtime of 12 hours. If your simulation requires more time, you may need to break it into shorter segments or consider alternative computing resources.
+Note: Google Colab sessions have a runtime limit (typically 12 hours), and high-performance GPUs may not always be available. For longer simulations, this guide includes methods for saving and resuming interrupted simulations using Google Drive integration. If your simulation requires continuous computation beyond Colab's limitations, you may consider alternative cloud resources such as Google Compute Engine or AWS.
 
 ## Prerequisites
 
 Before you begin, make sure you have the following:
 
-- A Google account
+- A Google account to access Google Colab and Drive.
 - Knowledge of molecular dynamics simulations and BASH commands
 - Familiarity with using Google Colab notebooks
+
+Our recently published [paper on bioRxiv](https://www.biorxiv.org/content/10.1101/2024.11.14.623563v1.abstract) explores:
+
+- Optimized GROMACS Performance on Colab: By re-compiling GROMACS on Colab, we achieved significant speed-ups compared to the default pre-compiled version.
+- Session Management Solutions: Methods to address session timeouts and hardware limitations by saving progress to Google Drive and resuming interrupted simulations.
+- GPU vs. TPU Benchmarks: Comparative analysis of CUDA-enabled GPUs versus Google TPUv2 units, with insights into their relative advantages for MD simulations.
+
+You can cite our paper if you find this instructions usuful.
 
 ## Setup
 

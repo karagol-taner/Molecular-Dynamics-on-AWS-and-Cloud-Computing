@@ -4,6 +4,10 @@ This guide provides detailed instructions for setting up and running molecular d
 
 Note: Google Colab Pro+ sessions have an unset runtime limit (typically 12-24 hours), and high-performance GPUs may not always be available. For longer simulations, this guide includes methods for saving and resuming interrupted simulations using Google Drive integration. If your simulation requires continuous computation beyond Colab's limitations, you may consider alternative cloud resources such as Google Compute Engine or AWS.
 
+This information is provided without any advice, recommendations, or guarantees.
+
+Please cite [our paper on bioRxiv](https://www.biorxiv.org/content/10.1101/2024.11.14.623563v1.abstract) if you find these instructions useful.
+
 ## Prerequisites
 
 Before you begin, make sure you have the following:
@@ -18,7 +22,7 @@ Our recently published [paper on bioRxiv](https://www.biorxiv.org/content/10.110
 - Session Management Solutions: Methods to address session timeouts and hardware limitations by saving progress to Google Drive and resuming interrupted simulations.
 - GPU vs. TPU Benchmarks: Comparative analysis of CUDA-enabled GPUs versus Google TPUv2 units, with insights into their relative advantages for MD simulations.
 
-You can cite our paper if you find these instructions useful.
+
 
 ## Setup
 

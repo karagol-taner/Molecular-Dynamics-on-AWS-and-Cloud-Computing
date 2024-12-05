@@ -8,7 +8,9 @@ DOI/Cite:
 
 [Karagöl, T., & Karagöl, A. (2024). Benchmarking GROMACS on Optimized Colab Processors and the Flexibility of Cloud Computing for Molecular Dynamics. bioRxiv, 2024-11.](https://www.biorxiv.org/content/10.1101/2024.11.14.623563v1.abstract) 
 
-or [![DOI](https://zenodo.org/badge/761850636.svg)](https://zenodo.org/doi/10.5281/zenodo.10751372)
+or 
+
+[![DOI](https://zenodo.org/badge/761850636.svg)](https://zenodo.org/doi/10.5281/zenodo.10751372)
 
 ## Overview
 Molecular dynamics (MD) simulations are a powerful computational tool used in various fields of science, including chemistry, biology, and materials science. GROMACS is a widely used open-source molecular dynamics simulation software designed for biochemical molecules.

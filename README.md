@@ -33,9 +33,11 @@ This information is provided without any advice, recommendations, or guarantees.
 
 Our recently published paper explores:
 
-**Optimized GROMACS Performance on Colab: By re-compiling GROMACS on Colab, we achieved significant speed-ups compared to the default pre-compiled version.
-**Session Management Solutions: Methods to address session timeouts and hardware limitations by saving progress to Google Drive and resuming interrupted simulations.
-**GPU vs. TPU Benchmarks: Comparative analysis of CUDA-enabled GPUs versus Google TPUv2 units, with insights into their relative advantages for MD simulations.
+**Optimized GROMACS Performance on Colab**: By re-compiling GROMACS on Colab, we achieved significant speed-ups compared to the default pre-compiled version.
+
+**Session Management Solutions**: Methods to address session timeouts and hardware limitations by saving progress to Google Drive and resuming interrupted simulations.
+
+**GPU vs. TPU Benchmarks**: Comparative analysis of CUDA-enabled GPUs versus Google TPUv2 units, with insights into their relative advantages for MD simulations.
 
 ## References
 1. Amazon Web Services. "Amazon EC2" Accessed February 22, 2024. https://aws.amazon.com/ec2/.

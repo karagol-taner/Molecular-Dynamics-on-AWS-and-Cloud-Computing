@@ -2,6 +2,10 @@
 
 This guide provides instructions for setting up and running molecular dynamics simulations on Amazon Elastic Compute Cloud (EC2).
 
+This information is provided without any advice, recommendations, or guarantees.
+
+Please cite [our paper on bioRxiv](https://www.biorxiv.org/content/10.1101/2024.11.14.623563v1.abstract) if you find these instructions useful.
+
 ## Prerequisites
 
 Before you begin, make sure you have the following:

@@ -40,7 +40,6 @@ Important: Please check our paper to decide which processor type you prefer and 
 3b. **Option 2**: Recompile GROMACS with CUDA Support (Recommended):
 For significantly better performance, especially when using GPUs, recompile GROMACS with CUDA support. This is the suggested method for running simulations efficiently on Google Colab. Follow the detailed instructions in this repository to set up a CUDA-enabled installation.
 
-First 
 ```
 # Install required packages
 !apt-get update
@@ -126,4 +125,3 @@ drive.mount('/content/drive')
 !chmod +x start.csh
 !csh start.csh
 ```
-

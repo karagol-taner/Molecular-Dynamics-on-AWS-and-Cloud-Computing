@@ -1,5 +1,7 @@
 # Molecular Dynamics Simulation on Google Colab
 
+Update 2025.9: Fixed minor issues
+
 This guide provides detailed instructions for setting up and running molecular dynamics (MD) simulations on Google Colab Pro+, with optimized workflows for significant performance gains. 
 
 Note: Google Colab Pro+ sessions have an unset runtime limit (typically 12-24 hours), and high-performance GPUs may not always be available. For longer simulations, this guide includes methods for saving and resuming interrupted simulations using Google Drive integration. If your simulation requires continuous computation beyond Colab's limitations, you may consider alternative cloud resources such as Google Compute Engine or AWS.
@@ -44,27 +46,17 @@ Important: Please check our paper to decide which processor type you prefer and 
 3b. **Option 2**: Recompile GROMACS with CUDA Support (Recommended):
 For significantly better performance, especially when using GPUs, recompile GROMACS with CUDA support. This is the suggested method for running simulations efficiently on Google Colab. Follow the detailed instructions in this repository to set up a CUDA-enabled installation.
 
-```
-# Install required packages
-!apt-get update
-!apt-get install -y build-essential cmake git libfftw3-dev libgsl-dev
 
-# Install CUDA (if not already installed)
-!apt-get install cuda
-
-# Check if GPU is available (optional, but useful for verification)
-!nvidia-smi
 ```
-```
-# if gromacs already installed:
+# remove if gromacs already installed:
 !gmx --version
 
 !apt-get remove --purge gromacs
 
 ```
 ```
-# Download the latest version of GROMACS 2024.3
-!wget https://ftp.gromacs.org/gromacs/gromacs-2024.3.tar.gz
+# Download the latest version of GROMACS (2025.2)
+!wget https://ftp.gromacs.org/gromacs/gromacs-2025.2.tar.gz
 
 # Extract the tarball
 !tar xfz gromacs-2024.3.tar.gz
@@ -96,6 +88,18 @@ os.environ['PATH'] += ":/usr/local/gromacs/bin"
 # Check GROMACS version to confirm installation
 !gmx --version
 
+```
+
+```
+# Install required packages
+!apt-get update
+!apt-get install -y build-essential cmake git libfftw3-dev libgsl-dev
+
+# Install CUDA (if not already installed)
+!apt-get install cuda
+
+# Check if GPU is available (optional, but useful for verification)
+!nvidia-smi
 ```
 
 4a. Option 1: You can upload files from the side-bar, files section.

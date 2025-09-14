@@ -59,12 +59,12 @@ For significantly better performance, especially when using GPUs, recompile GROM
 !wget https://ftp.gromacs.org/gromacs/gromacs-2025.2.tar.gz
 
 # Extract the tarball
-!tar xfz gromacs-2024.3.tar.gz
+!tar xfz gromacs-2025.2.tar.gz
 
 ```
 ```
 # Navigate to the GROMACS source directory
-%cd gromacs-2024.3
+%cd gromacs-2025.2
 
 # Create a build directory
 !mkdir build

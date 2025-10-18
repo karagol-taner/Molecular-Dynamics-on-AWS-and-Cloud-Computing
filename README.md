@@ -12,7 +12,7 @@ or
 
 [![DOI](https://zenodo.org/badge/761850636.svg)](https://zenodo.org/doi/10.5281/zenodo.10751372)
 
-### Latest update (Oct 18, 2025) : 
+#### Latest update (Oct 18, 2025) : 
 You can also check our gmx_MMPBSA workflow for Jupyter notebooks: [gmx_MMPSA_conda_Jupyter_colab on GitHub](https://github.com/karagol-taner/gmx_MMPSA_conda_Jupyter_colab)
 
 ## Overview
